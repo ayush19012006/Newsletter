@@ -1,0 +1,150 @@
+body {
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #151515;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 1;
+    border-bottom: 1px solid #f0efef;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1b1919;
+    padding: 70px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #007BFF;
+    border: #1d1e1d solid 2px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #988ffbba;
+}
+
+footer {
+    background-color: #1d1e1d;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+.gallery {
+    padding: 20px 0;
+}
+
+.gallery .container {
+    text-align: center;
+}
+
+.gallery h1 {
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.gallery article {
+    background-color: #fff;
+    border: 5px solid #050505;
+    border-radius: 20px;
+    padding: 20px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.gallery article img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.gallery article h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.gallery article p {
+    font-size: 1.4rem;
+}
+
+.gallery article:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 15px 16px rgba(0, 0, 0, 0.6);
+}
